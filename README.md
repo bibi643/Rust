@@ -1,5 +1,8 @@
 # Rust
 
+[Tech with Tim,](https://www.youtube.com/watch?v=T_KrYLW4jw8&list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ)
+[Derek_Banas](https://www.youtube.com/watch?v=ygL_xcavzQ4)
+
 # Overview
 
 Tuto about the basics of Rust.
@@ -9,3 +12,15 @@ Rust being a typed language can give me more knowledge and make me a better code
 
 Once I complete this tuto, and maybe one project, I will decide which second language to focus on between Rust and Javascript.
 
+
+# Why Rust?
+
+- High Performance
+- Garbage collection not necessary
+- Concurrent programming
+- Easy to understand errors.
+
+# Things to review
+
+- ::
+- & pointers etc like in Golang
