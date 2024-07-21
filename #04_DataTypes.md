@@ -132,7 +132,10 @@ fn main() {
 
 ### Arrays: []
 The elements inside the array have to have the same type (all int, all floats...)
-In rust the arrays are defined by the type of the datas and the number of datas.
+**In rust the arrays are explicitly defined by the type of the datas and the number of datas.**
+
+_let arr: [type;number_of_element]_
+
 arr here is made of 5 elements i32 types. I cannot add new datas in this array. I would have to create a new one or redifine it.
 ```rust
 let arr: [i32,5]= [1,2,3,4,5]
@@ -154,8 +157,19 @@ fn main() {
 
 
 
-#### Modifify the array
+#### Modify the array
 
+We cannot modify an array unless we make it mutuable.
+
+```rust
+fn main() {
+    let mut arr = [1,2,3,4,5];
+    arr[2] =25;
+    println!("x is :{}",arr[2]);
+
+    
+    }
+```
 
 
 
